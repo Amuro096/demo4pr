@@ -3,6 +3,10 @@ public class sum {
         int c= a+b;
         return c;
     }
+   static  int multi(int a,int b){
+        int c= a*b;
+        return c;
+    }
     public static void  main (String[] args){
         int a=sum(1,2);
         System.out.println(a);
